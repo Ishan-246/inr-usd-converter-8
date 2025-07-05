@@ -52,7 +52,7 @@ function App() {
                 onChange={(e) => setInr(e.target.value)}
             />
             <button onClick={convertCurrency}>Convert</button>
-            {usd && <p>USD: ${usd}</p>}
+        
         </div>
     )
 
